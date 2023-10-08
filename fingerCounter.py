@@ -17,7 +17,7 @@ for imgpath in myList:
 print(len(overlayList))
 
 pTime=0
-detector=htm.handDetector(detectionCon=0.75)
+detector=htm.handDetector(detectionCon=1)
 while True:
 
 
